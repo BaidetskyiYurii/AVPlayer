@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "Can You Hear Me .pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

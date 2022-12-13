@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6373BC8B29250D8D00DCB2B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6373BC8A29250D8D00DCB2B8 /* AppDelegate.swift */; };
+		6373BC8D29250D8D00DCB2B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6373BC8C29250D8D00DCB2B8 /* SceneDelegate.swift */; };
+		6373BC8F29250D8D00DCB2B8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6373BC8E29250D8D00DCB2B8 /* MainViewController.swift */; };
+		6373BC9229250D8D00DCB2B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6373BC9029250D8D00DCB2B8 /* Main.storyboard */; };
+		6373BC9429250D8E00DCB2B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6373BC9329250D8E00DCB2B8 /* Assets.xcassets */; };
+		6373BC9729250D8E00DCB2B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6373BC9529250D8E00DCB2B8 /* LaunchScreen.storyboard */; };
+		6373BCA229256E0900DCB2B8 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6373BCA029256E0900DCB2B8 /* MainTableViewCell.swift */; };
+		6373BCA329256E0900DCB2B8 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6373BCA129256E0900DCB2B8 /* MainTableViewCell.xib */; };
+		6373BCA6292573E600DCB2B8 /* MainMusicListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6373BCA5292573E600DCB2B8 /* MainMusicListModel.swift */; };
+		6373BCA92925748700DCB2B8 /* MockDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6373BCA82925748700DCB2B8 /* MockDataHelper.swift */; };
+		6373BCE62928F27F00DCB2B8 /* Abu Simbel - WhoMadeWho.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6373BCDC2928F27F00DCB2B8 /* Abu Simbel - WhoMadeWho.mp3 */; };
+		6373BCE72928F27F00DCB2B8 /* Halsey - Castle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6373BCDD2928F27F00DCB2B8 /* Halsey - Castle.mp3 */; };
+		6373BCE82928F27F00DCB2B8 /* Alexander Alar & Sonita - Tokyo Cherry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6373BCDE2928F27F00DCB2B8 /* Alexander Alar & Sonita - Tokyo Cherry.mp3 */; };
+		6373BCE92928F27F00DCB2B8 /* alyona alyona  - Чому( feat. Jerry Heil).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6373BCDF2928F27F00DCB2B8 /* alyona alyona  - Чому( feat. Jerry Heil).mp3 */; };
+		6373BCEA2928F27F00DCB2B8 /* Solomun - Home (Boys Noize Remix).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6373BCE02928F27F00DCB2B8 /* Solomun - Home (Boys Noize Remix).mp3 */; };
+		6373BCEB2928F27F00DCB2B8 /* The Chainsmokers - Young.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6373BCE12928F27F00DCB2B8 /* The Chainsmokers - Young.mp3 */; };
+		6373BCEC2928F27F00DCB2B8 /* Billie Eilish - Six Feet Under.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6373BCE22928F27F00DCB2B8 /* Billie Eilish - Six Feet Under.mp3 */; };
+		6373BCED2928F27F00DCB2B8 /* UNSECRET- Can You Hear Me (feat. Young Summer).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6373BCE32928F27F00DCB2B8 /* UNSECRET- Can You Hear Me (feat. Young Summer).mp3 */; };
+		6373BCEE2928F27F00DCB2B8 /* Billie Eilish - No Time To Die.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6373BCE42928F27F00DCB2B8 /* Billie Eilish - No Time To Die.mp3 */; };
+		6373BCEF2928F27F00DCB2B8 /* Natashe Blum - Black Sea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6373BCE52928F27F00DCB2B8 /* Natashe Blum - Black Sea.mp3 */; };
+		6373BCF22928FA3C00DCB2B8 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6373BCF12928FA3C00DCB2B8 /* PlayerViewController.swift */; };
+		6373BCF629290A5A00DCB2B8 /* MusicImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6373BCF429290A5A00DCB2B8 /* MusicImageTableViewCell.swift */; };
+		6373BCF729290A5A00DCB2B8 /* MusicImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6373BCF529290A5A00DCB2B8 /* MusicImageTableViewCell.xib */; };
+		6373BCFA29290A6700DCB2B8 /* MusicControlTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6373BCF829290A6700DCB2B8 /* MusicControlTableViewCell.swift */; };
+		6373BCFB29290A6700DCB2B8 /* MusicControlTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6373BCF929290A6700DCB2B8 /* MusicControlTableViewCell.xib */; };
+		6373BCFE29290B1F00DCB2B8 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6373BCFC29290B1F00DCB2B8 /* ImageCollectionViewCell.swift */; };
+		6373BCFF29290B1F00DCB2B8 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6373BCFD29290B1F00DCB2B8 /* ImageCollectionViewCell.xib */; };
+		6373BD03292A99DF00DCB2B8 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6373BD02292A99DF00DCB2B8 /* Player.swift */; };
+		63A53BD52943AAD20075AB49 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A53BD42943AAD20075AB49 /* Alert.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6373BC8729250D8D00DCB2B8 /* AVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6373BC8A29250D8D00DCB2B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6373BC8C29250D8D00DCB2B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6373BC8E29250D8D00DCB2B8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6373BC9129250D8D00DCB2B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6373BC9329250D8E00DCB2B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6373BC9629250D8E00DCB2B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6373BC9829250D8E00DCB2B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6373BCA029256E0900DCB2B8 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		6373BCA129256E0900DCB2B8 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		6373BCA5292573E600DCB2B8 /* MainMusicListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMusicListModel.swift; sourceTree = "<group>"; };
+		6373BCA82925748700DCB2B8 /* MockDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataHelper.swift; sourceTree = "<group>"; };
+		6373BCDC2928F27F00DCB2B8 /* Abu Simbel - WhoMadeWho.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Abu Simbel - WhoMadeWho.mp3"; sourceTree = "<group>"; };
+		6373BCDD2928F27F00DCB2B8 /* Halsey - Castle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Halsey - Castle.mp3"; sourceTree = "<group>"; };
+		6373BCDE2928F27F00DCB2B8 /* Alexander Alar & Sonita - Tokyo Cherry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Alexander Alar & Sonita - Tokyo Cherry.mp3"; sourceTree = "<group>"; };
+		6373BCDF2928F27F00DCB2B8 /* alyona alyona  - Чому( feat. Jerry Heil).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "alyona alyona  - Чому( feat. Jerry Heil).mp3"; sourceTree = "<group>"; };
+		6373BCE02928F27F00DCB2B8 /* Solomun - Home (Boys Noize Remix).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Solomun - Home (Boys Noize Remix).mp3"; sourceTree = "<group>"; };
+		6373BCE12928F27F00DCB2B8 /* The Chainsmokers - Young.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Chainsmokers - Young.mp3"; sourceTree = "<group>"; };
+		6373BCE22928F27F00DCB2B8 /* Billie Eilish - Six Feet Under.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Billie Eilish - Six Feet Under.mp3"; sourceTree = "<group>"; };
+		6373BCE32928F27F00DCB2B8 /* UNSECRET- Can You Hear Me (feat. Young Summer).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "UNSECRET- Can You Hear Me (feat. Young Summer).mp3"; sourceTree = "<group>"; };
+		6373BCE42928F27F00DCB2B8 /* Billie Eilish - No Time To Die.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Billie Eilish - No Time To Die.mp3"; sourceTree = "<group>"; };
+		6373BCE52928F27F00DCB2B8 /* Natashe Blum - Black Sea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Natashe Blum - Black Sea.mp3"; sourceTree = "<group>"; };
+		6373BCF12928FA3C00DCB2B8 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		6373BCF429290A5A00DCB2B8 /* MusicImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicImageTableViewCell.swift; sourceTree = "<group>"; };
+		6373BCF529290A5A00DCB2B8 /* MusicImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicImageTableViewCell.xib; sourceTree = "<group>"; };
+		6373BCF829290A6700DCB2B8 /* MusicControlTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicControlTableViewCell.swift; sourceTree = "<group>"; };
+		6373BCF929290A6700DCB2B8 /* MusicControlTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicControlTableViewCell.xib; sourceTree = "<group>"; };
+		6373BCFC29290B1F00DCB2B8 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		6373BCFD29290B1F00DCB2B8 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		6373BD02292A99DF00DCB2B8 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		63A53BD42943AAD20075AB49 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6373BC8429250D8D00DCB2B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6373BC7E29250D8D00DCB2B8 = {
+			isa = PBXGroup;
+			children = (
+				6373BC8929250D8D00DCB2B8 /* AVPlayer */,
+				6373BC8829250D8D00DCB2B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6373BC8829250D8D00DCB2B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6373BC8729250D8D00DCB2B8 /* AVPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6373BC8929250D8D00DCB2B8 /* AVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				6373BC8A29250D8D00DCB2B8 /* AppDelegate.swift */,
+				6373BC8C29250D8D00DCB2B8 /* SceneDelegate.swift */,
+				63A53BD32943AAC20075AB49 /* Alert */,
+				6373BD01292A99CE00DCB2B8 /* Player */,
+				6373BCA72925746700DCB2B8 /* MockDataHelper */,
+				6373BC9E29256DDF00DCB2B8 /* MainViewController */,
+				6373BCF02928F9E400DCB2B8 /* PlayerViewController */,
+				6373BC9029250D8D00DCB2B8 /* Main.storyboard */,
+				6373BC9329250D8E00DCB2B8 /* Assets.xcassets */,
+				6373BC9529250D8E00DCB2B8 /* LaunchScreen.storyboard */,
+				6373BC9829250D8E00DCB2B8 /* Info.plist */,
+				6373BCCA2928EECE00DCB2B8 /* Resources */,
+			);
+			path = AVPlayer;
+			sourceTree = "<group>";
+		};
+		6373BC9E29256DDF00DCB2B8 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6373BC8E29250D8D00DCB2B8 /* MainViewController.swift */,
+				6373BC9F29256DED00DCB2B8 /* Cell */,
+				6373BCA4292573B600DCB2B8 /* Model */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		6373BC9F29256DED00DCB2B8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6373BCA029256E0900DCB2B8 /* MainTableViewCell.swift */,
+				6373BCA129256E0900DCB2B8 /* MainTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6373BCA4292573B600DCB2B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6373BCA5292573E600DCB2B8 /* MainMusicListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6373BCA72925746700DCB2B8 /* MockDataHelper */ = {
+			isa = PBXGroup;
+			children = (
+				6373BCA82925748700DCB2B8 /* MockDataHelper.swift */,
+			);
+			path = MockDataHelper;
+			sourceTree = "<group>";
+		};
+		6373BCCA2928EECE00DCB2B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6373BCCB2928EEE600DCB2B8 /* Music */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6373BCCB2928EEE600DCB2B8 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				6373BCDC2928F27F00DCB2B8 /* Abu Simbel - WhoMadeWho.mp3 */,
+				6373BCDE2928F27F00DCB2B8 /* Alexander Alar & Sonita - Tokyo Cherry.mp3 */,
+				6373BCDF2928F27F00DCB2B8 /* alyona alyona  - Чому( feat. Jerry Heil).mp3 */,
+				6373BCE42928F27F00DCB2B8 /* Billie Eilish - No Time To Die.mp3 */,
+				6373BCE22928F27F00DCB2B8 /* Billie Eilish - Six Feet Under.mp3 */,
+				6373BCDD2928F27F00DCB2B8 /* Halsey - Castle.mp3 */,
+				6373BCE52928F27F00DCB2B8 /* Natashe Blum - Black Sea.mp3 */,
+				6373BCE02928F27F00DCB2B8 /* Solomun - Home (Boys Noize Remix).mp3 */,
+				6373BCE12928F27F00DCB2B8 /* The Chainsmokers - Young.mp3 */,
+				6373BCE32928F27F00DCB2B8 /* UNSECRET- Can You Hear Me (feat. Young Summer).mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		6373BCF02928F9E400DCB2B8 /* PlayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6373BCF12928FA3C00DCB2B8 /* PlayerViewController.swift */,
+				6373BCF329290A2B00DCB2B8 /* Cells */,
+			);
+			path = PlayerViewController;
+			sourceTree = "<group>";
+		};
+		6373BCF329290A2B00DCB2B8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6373BCF429290A5A00DCB2B8 /* MusicImageTableViewCell.swift */,
+				6373BCF529290A5A00DCB2B8 /* MusicImageTableViewCell.xib */,
+				6373BCFC29290B1F00DCB2B8 /* ImageCollectionViewCell.swift */,
+				6373BCFD29290B1F00DCB2B8 /* ImageCollectionViewCell.xib */,
+				6373BCF829290A6700DCB2B8 /* MusicControlTableViewCell.swift */,
+				6373BCF929290A6700DCB2B8 /* MusicControlTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6373BD01292A99CE00DCB2B8 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				6373BD02292A99DF00DCB2B8 /* Player.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		63A53BD32943AAC20075AB49 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				63A53BD42943AAD20075AB49 /* Alert.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6373BC8629250D8D00DCB2B8 /* AVPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6373BC9B29250D8F00DCB2B8 /* Build configuration list for PBXNativeTarget "AVPlayer" */;
+			buildPhases = (
+				6373BC8329250D8D00DCB2B8 /* Sources */,
+				6373BC8429250D8D00DCB2B8 /* Frameworks */,
+				6373BC8529250D8D00DCB2B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVPlayer;
+			productName = AVPlayer;
+			productReference = 6373BC8729250D8D00DCB2B8 /* AVPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6373BC7F29250D8D00DCB2B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					6373BC8629250D8D00DCB2B8 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 6373BC8229250D8D00DCB2B8 /* Build configuration list for PBXProject "AVPlayer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6373BC7E29250D8D00DCB2B8;
+			productRefGroup = 6373BC8829250D8D00DCB2B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6373BC8629250D8D00DCB2B8 /* AVPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6373BC8529250D8D00DCB2B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6373BCE92928F27F00DCB2B8 /* alyona alyona  - Чому( feat. Jerry Heil).mp3 in Resources */,
+				6373BCED2928F27F00DCB2B8 /* UNSECRET- Can You Hear Me (feat. Young Summer).mp3 in Resources */,
+				6373BCE62928F27F00DCB2B8 /* Abu Simbel - WhoMadeWho.mp3 in Resources */,
+				6373BCFF29290B1F00DCB2B8 /* ImageCollectionViewCell.xib in Resources */,
+				6373BCE82928F27F00DCB2B8 /* Alexander Alar & Sonita - Tokyo Cherry.mp3 in Resources */,
+				6373BC9729250D8E00DCB2B8 /* LaunchScreen.storyboard in Resources */,
+				6373BCE72928F27F00DCB2B8 /* Halsey - Castle.mp3 in Resources */,
+				6373BCEE2928F27F00DCB2B8 /* Billie Eilish - No Time To Die.mp3 in Resources */,
+				6373BCFB29290A6700DCB2B8 /* MusicControlTableViewCell.xib in Resources */,
+				6373BCEB2928F27F00DCB2B8 /* The Chainsmokers - Young.mp3 in Resources */,
+				6373BCEC2928F27F00DCB2B8 /* Billie Eilish - Six Feet Under.mp3 in Resources */,
+				6373BC9429250D8E00DCB2B8 /* Assets.xcassets in Resources */,
+				6373BCF729290A5A00DCB2B8 /* MusicImageTableViewCell.xib in Resources */,
+				6373BCEA2928F27F00DCB2B8 /* Solomun - Home (Boys Noize Remix).mp3 in Resources */,
+				6373BCA329256E0900DCB2B8 /* MainTableViewCell.xib in Resources */,
+				6373BC9229250D8D00DCB2B8 /* Main.storyboard in Resources */,
+				6373BCEF2928F27F00DCB2B8 /* Natashe Blum - Black Sea.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6373BC8329250D8D00DCB2B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6373BD03292A99DF00DCB2B8 /* Player.swift in Sources */,
+				6373BC8F29250D8D00DCB2B8 /* MainViewController.swift in Sources */,
+				6373BCA92925748700DCB2B8 /* MockDataHelper.swift in Sources */,
+				6373BC8B29250D8D00DCB2B8 /* AppDelegate.swift in Sources */,
+				6373BCF22928FA3C00DCB2B8 /* PlayerViewController.swift in Sources */,
+				6373BCA229256E0900DCB2B8 /* MainTableViewCell.swift in Sources */,
+				63A53BD52943AAD20075AB49 /* Alert.swift in Sources */,
+				6373BCFE29290B1F00DCB2B8 /* ImageCollectionViewCell.swift in Sources */,
+				6373BCFA29290A6700DCB2B8 /* MusicControlTableViewCell.swift in Sources */,
+				6373BC8D29250D8D00DCB2B8 /* SceneDelegate.swift in Sources */,
+				6373BCF629290A5A00DCB2B8 /* MusicImageTableViewCell.swift in Sources */,
+				6373BCA6292573E600DCB2B8 /* MainMusicListModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6373BC9029250D8D00DCB2B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6373BC9129250D8D00DCB2B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6373BC9529250D8E00DCB2B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6373BC9629250D8E00DCB2B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6373BC9929250D8E00DCB2B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6373BC9A29250D8E00DCB2B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6373BC9C29250D8F00DCB2B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AVPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.AVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6373BC9D29250D8F00DCB2B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AVPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.AVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6373BC8229250D8D00DCB2B8 /* Build configuration list for PBXProject "AVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6373BC9929250D8E00DCB2B8 /* Debug */,
+				6373BC9A29250D8E00DCB2B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6373BC9B29250D8F00DCB2B8 /* Build configuration list for PBXNativeTarget "AVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6373BC9C29250D8F00DCB2B8 /* Debug */,
+				6373BC9D29250D8F00DCB2B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6373BC7F29250D8D00DCB2B8 /* Project object */;
+}
